@@ -1,0 +1,24 @@
+<header>
+  <div class="navbar">
+    <nav class="brand-logo-container">
+      <a routerLink="/" routerLinkActive="active">
+        <img src="favicon.ico" alt="Logo de la empresa">
+      </a>
+    </nav>
+
+    <button class="navbar-toggler" (click)="toggleMenu()">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="navbar-toggler-button" viewBox="0 0 16 14">
+        <path fill-rule="evenodd"
+          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+      </svg>
+    </button>
+
+    <nav class="navigation-menu" [ngClass]="{'menu-active': isMenuOpen && isMediumScreen}">
+      <ul>
+        <li *ngFor="let menuItem of headerItems">
+          <a [routerLink]="menuItem.itemUrl" routerLinkActive="active">{{ menuItem.itemName | titlecase }}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

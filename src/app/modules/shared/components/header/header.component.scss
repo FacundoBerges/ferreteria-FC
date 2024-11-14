@@ -1,0 +1,108 @@
+header {
+  background-color: var(--light-color);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 0.5rem;
+  width: 100%;
+
+  .navbar {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+
+    a {
+      transition: all 0.2s ease;
+    }
+
+    a:hover {
+      cursor: pointer;
+      color: var(--secondary-color);
+    }
+
+    @media screen and (min-width: 640px) {
+      font-size: 1.2rem;
+      padding: 0;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 1.4rem;
+    }
+
+    .brand-logo-container {
+      display: inline-block;
+
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .navbar-toggler {
+      background-color: transparent;
+      border: none;
+      color: var(--primary-color);
+      display: none;
+      font-size: 1.5rem;
+
+      @media (max-width: 640px) {
+        display: flex;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      svg {
+        width: 2.25rem;
+        height: 2.25rem;
+      }
+    }
+
+    .navigation-menu {
+      display: inline-flex;
+      overflow: hidden;
+      transition: all 0.3s ease;
+
+      @media screen and (max-width: 640px) {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+
+        height: 0vh;
+        width: 100%;
+        z-index: 1;
+      }
+
+      &.menu-active {
+        height: 30vh;
+        pointer-events: auto;
+        margin: 0.6rem 0;
+      }
+
+      ul {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-end;
+
+        @media screen and (max-width: 640px) {
+          flex-direction: column;
+        }
+
+        li {
+          padding: 0.1rem 0.6rem;
+
+          @media (max-width: 640px) {
+            padding: 0.5rem 0;
+          }
+        }
+      }
+    }
+  }
+}
