@@ -1,0 +1,108 @@
+.brand-name {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.img-background {
+  background-image: url("/assets/img/ferreteria-fc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+
+  .text-container {
+    min-height: 6rem;
+    max-height: 15rem;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 2rem 1rem;
+
+    @media screen and (min-width: 425px) {
+      min-height: 8rem;
+      height: 100vh;
+    }
+
+    @media screen and (min-width: 768px) {
+      min-height: 10rem;
+      height: 100vh;
+    }
+
+    @media screen and (min-width: 1024px) {
+      min-height: 12rem;
+      height: 100vh;
+    }
+
+    h1 {
+      color: var(--light-color);
+      font-size: 2rem;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000000;
+
+      @media (min-width: 768px) {
+        font-size: 3rem;
+      }
+
+      @media (min-width: 1024px) {
+        padding-top: 2rem;
+        font-size: 4rem;
+      }
+    }
+
+    p {
+      color: var(--light-color);
+      font-size: 1rem;
+      text-align: center;
+      text-shadow: 2px 2px 4px #000000;
+
+      @media (min-width: 768px) {
+        padding: 2rem 1rem;
+        font-size: 1.5rem;
+      }
+
+      @media (min-width: 1024px) {
+        padding: 2rem 1rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: 100%;
+
+  @media screen and (min-width: 425px) {
+    padding: 2.5rem 1.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 3rem 2rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    padding: 4rem 3rem;
+  }
+
+  padding: 2rem 1rem;
+
+  p {
+    color: var(--dark-color);
+    padding: 1rem 0;
+
+    font-size: 1rem;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 2rem;
+    }
+
+    #quote {
+      font-style: italic;
+      font-weight: bold;
+    }
+  }
+}
