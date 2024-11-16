@@ -1,0 +1,409 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Abrazaderas de acero",
+      "imgUrl": "/img/categorias/Abrazaderas.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Accesorios Varios",
+      "imgUrl": "/img/categorias/Accesorios%20Varios.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Anodos de magnesio para termotanques",
+      "imgUrl": "/img/categorias/Anodos%20de%20Magnesio%20para%20Termotanques.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Arandelas y guarniciones PVC, plástico y goma",
+      "imgUrl": "/img/categorias/Arandelas%20y%20Guarniciones%20-%20PVC%20-%20Fibra%20-%20Plastico%20-%20Goma.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Aros para base de inodoro",
+      "imgUrl": "/img/categorias/Aros%20para%20Base%20de%20Inodoro.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Asiento inod.Monkoto, Daccord, y madera",
+      "imgUrl": "/img/categorias/ASIENTO%20DE%20INODORO%20MONKOTO%20DACCORD%20Y%20DE%20MADERA.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Barrales de seguridad y rebatibles",
+      "imgUrl": "/img/categorias/BARRALES%20DE%20SEGURIDAD%20Y%20REBATIBLES.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Bidematic",
+      "imgUrl": "/img/categorias/BIDEMATIC.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Bombas periféricas y presurizadoras",
+      "imgUrl": "/img/categorias/Bombas%20perifericas%20y%20presurizadoras.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Boyas para flotante",
+      "imgUrl": "/img/categorias/BOYAS%20PARA%20FLOTANTE%20PLASTICAS%20Y%20TELGOPOR.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Brazos para flotante",
+      "imgUrl": "/img/categorias/BRAZOS%20PARA%20FLOTANTE.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Brazos y lluvias de plático y bronce cromado",
+      "imgUrl": "/img/categorias/BRAZOS%20Y%20LLUVIAS%20DE%20PLASTICO%20Y%20BRONCE%20CROMADO.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Cabezales vastagos y prensas para grifería",
+      "imgUrl": "/img/categorias/CABEZALES%20VASTAGOS%20Y%20PRENSAS%20PARA%20GRIFERIAS.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Cadena bolita y accesorios",
+      "imgUrl": "/img/categorias/CADENA%20BOLITA%20Y%20ACCESORIOS.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Calizuares",
+      "imgUrl": "/img/categorias/CALIZUARES.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Cámara de inspección OV. cam PVC 3.2",
+      "imgUrl": "/img/categorias/CAMARAS%20DE%20INSPECCION%20OV%20CAM%20PVC%203.2.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Canillas nacionales",
+      "imgUrl": "/img/categorias/CANILLAS%20NACIONALES.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Canillas y llaves esféricas Italy",
+      "imgUrl": "/img/categorias/CANILLAS%20Y%20LLAVES%20ESFERICAS%20ITALY.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Caños de Hidro Bronz y aluminio",
+      "imgUrl": "/img/categorias/CANIOS%20DE%20HIDRO-BRONZ%20Y%20ALUMINIO.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Chavetas",
+      "imgUrl": "/img/categorias/CHAVETAS.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Chicotes flexibles de cobre, mallados, PVC para agua",
+      "imgUrl": "/img/categorias/CHICOTES%20FLEXIBLE%20DE%20COBRE-MALLADOS-PVC%20PARA%20AGUA.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Conexiones aprobadas para gas extensibles",
+      "imgUrl": "/img/categorias/CONEXIONES%20APROBADAS%20PARA%20GAS%20EXTENSIBLES.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Conexiones malladas de color",
+      "imgUrl": "/img/categorias/CONEXIONES%20MALLADAS%20DE%20COLOR2.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Conexiones de goma y PVC para inodoros y mochilas",
+      "imgUrl": "/img/categorias/CONEXIONES%20DE%20GOMA%20Y%20PVC%20PARA%20INODOROS%20Y%20MOCHILAS.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Depós. y mochilas plást. Cristal, Sn Lucas y repuestos",
+      "imgUrl": "/img/categorias/DEPOSITOS%20Y%20MOCHILAS%20PLASTICAS%20CRISTAL%20Y%20SAN%20LUCAS%20Y%20REPUESTOS.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Descargas articuladas fuelle bajadas",
+      "imgUrl": "/img/categorias/DESCARGAS%20ARTICULADAS%20FUELLE%20BAJADAS.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Diafragma para calefón goma y tela",
+      "imgUrl": "/img/categorias/DIAFRAGMAS%20PARA%20CALEFON%20GOMA%20Y%20TELA.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Discos diamantados de corte",
+      "imgUrl": "/img/categorias/DISCOS%20DIAMANTADOS%20DE%20CORTE.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Duchadores de mano",
+      "imgUrl": "/img/categorias/DUCHADORES%20DE%20MANO.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Estaño para soldaduras Soldati",
+      "imgUrl": "/img/categorias/ESTANIO%20PARA%20SOLDADURA%20-%20SOLDATI.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Filtros de acero y plástico para piletas",
+      "imgUrl": "/img/categorias/FILTROS%20DE%20ACERO%20Y%20PLASTICO%20PARA%20PILETAS.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Flotante cámara silenciosa Insa y Errede",
+      "imgUrl": "/img/categorias/FLOTANTES%20CAMARAS%20SILENCIOSAS%20INSA%20Y%20ERREDE.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Flotante tanque deposito y automáticos",
+      "imgUrl": "/img/categorias/FLOTANTES%20PARA%20TANQUE,%20DEPOSITO%20Y%20AUTOMATICOS.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Gas - piezas de bronce , llaves y manijas para llaves",
+      "imgUrl": "/img/categorias/GAS,%20PIEZAS%20DE%20BRONCE%20-%20LLAVES%20DE%20GAS%20-%20MANIJAS%20PARA%20LLAVES.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Gomitas sintéticas",
+      "imgUrl": "/img/categorias/GOMITAS%20SINTETICAS%20Y%20ORINGS.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Grampas lavatorio Omega, media Omega",
+      "imgUrl": "/img/categorias/GRAMPAS%20LAVATORIO%20-%20OMEGA%20-%20MEDIA%20OMEGA.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Grifería Accesorios . Picos, cartuchos, cortachorros, tuercas",
+      "imgUrl": "/img/categorias/GRIFERIA%20(ACCESORIOS)%20PICOS%20-%20CARTUCHOS%20-%20CORTACHORROS.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Grifería tipo 1° marca - economicas",
+      "imgUrl": "/img/categorias/GRIFERIA%20%20MARCA%20ECONOMICA.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Herramientas sanitarias del plomero",
+      "imgUrl": "/img/categorias/HERRAMIENTAS%20SANITARIAS%20DE%20PLOMERO.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Herramientas sanitarias eléctricas",
+      "imgUrl": "/img/categorias/HERRAMIENTAS%20SANITARIAS%20ELECTRICAS.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Jardinería",
+      "imgUrl": "/img/categorias/JARDINERIA.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Manguera carga y descarga lavarropas",
+      "imgUrl": "/img/categorias/MANGUERA%20CARGA%20Y%20DESCARGA%20LAVARROPA.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Mangueras de gas y riego",
+      "imgUrl": "/img/categorias/MANGUERA%20DE%20GAS%20Y%20RIEGO.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Monturas Epoxi",
+      "imgUrl": "/img/categorias/MONTURAS%20EPOXI.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Obturadores y boyas para depósitos y mochilas",
+      "imgUrl": "/img/categorias/OBTURADORES%20Y%20BOYAS%20PARA%20DEPOSITO%20Y%20MOCHILA.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Paragolpes y tornillos para asientos de inodoros",
+      "imgUrl": "/img/categorias/PARAGOLPES%20Y%20TORNILLOS%20PARA%20ASIENTOS%20DE%20INODORO.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Perillas de cocina originales",
+      "imgUrl": "/img/categorias/PERILLAS%20DE%20COCINA%20ORIGINALES.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Piezas de bronce roscado para agua",
+      "imgUrl": "/img/categorias/PIEZAS%20DE%20BRONCE%20ROSACADO%20PARA%20AGUA.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Piezas de Epoxi aprobadas",
+      "imgUrl": "/img/categorias/PIEZAS%20DE%20EPOXI%20APROBADAS.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Piezas de polipropileno",
+      "imgUrl": "/img/categorias/PIEZAS%20DE%20POLIPROPILENO.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Precintos de Nylon",
+      "imgUrl": "/img/categorias/PRECINTOS%20DE%20NYLON.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Prolongación canillas cromadas",
+      "imgUrl": "/img/categorias/PROLONGACION%20DE%20CANILLA%20CROMADAS.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Prolongación de canillas y nueces cromadas plásticas",
+      "imgUrl": "/img/categorias/PROLONGACION%20DE%20CANILLAS%20Y%20NUECES%20CROMADAS%20PLASTICASs.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Prolongador y modificador de estrías de vástagos",
+      "imgUrl": "/img/categorias/PROLONGADOR%20Y%20MODIFICADOR%20DE%20ESTRIAS%20DE%20VASTAGOS.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Química sanitaria",
+      "imgUrl": "/img/categorias/QUIMICA%20SANITARIA.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Ramales para lavatorios",
+      "imgUrl": "/img/categorias/RAMALES%20PARA%20LAVATORIO.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Rejas para piso y ventilación",
+      "imgUrl": "/img/categorias/REJAS%20PARA%20PISO%20Y%20VENTILACION.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Repuestos Capea",
+      "imgUrl": "/img/categorias/REPUESTOS%20CAPEA.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Repuestos Ferrum",
+      "imgUrl": "/img/categorias/REPUESTOS%20FERRUM.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Repuestos Flu-Max",
+      "imgUrl": "/img/categorias/REPUESTOS%20FLU-MAX.jpg"
+    },
+    {
+      "id": 61,
+      "name": "Repuestos Franklin",
+      "imgUrl": "/img/categorias/REPUESTOS%20FRANKLIN.jpg"
+    },
+    {
+      "id": 62,
+      "name": "Repuestos Ideal",
+      "imgUrl": "/img/categorias/REPUESTOS%20IDEAL.jpg"
+    },
+    {
+      "id": 63,
+      "name": "Repuestos Roca, Olmo Motta, Delta",
+      "imgUrl": "/img/categorias/REPUESTOS%20ROCA%20-%20OLMOS%20-%20MOTTA%20-%20DELTA.jpg"
+    },
+    {
+      "id": 64,
+      "name": "Repuestos Yunque",
+      "imgUrl": "/img/categorias/REPUESTOS%20YUNQUE.jpg"
+    },
+    {
+      "id": 65,
+      "name": "Sifones de goma Crupier,Chicote y económicos",
+      "imgUrl": "/img/categorias/SIFONES%20DE%20GOMA%20CRUPIER%20-%20CHICOTE%20Y%20ECONOMICOS.jpg"
+    },
+    {
+      "id": 66,
+      "name": "Sopapas para piletas",
+      "imgUrl": "/img/categorias/SOPAPAS%20PARA%20PILETA%20DE%20BRONCE%20Y%20PLASTICO.jpg"
+    },
+    {
+      "id": 67,
+      "name": "Sopletes y cartuchos de gas",
+      "imgUrl": "/img/categorias/Sopletes%20y%20cartuchos%20de%20gas.jpg"
+    },
+    {
+      "id": 68,
+      "name": "Tapas internas y sobretapas para depósitos",
+      "imgUrl": "/img/categorias/TAPAS%20INTERNAS%20Y%20SOBRETAPAS%20PARA%20DEPOSITOS.jpg"
+    },
+    {
+      "id": 69,
+      "name": "Tarugos de Nylon",
+      "imgUrl": "/img/categorias/TARUGOS%20DE%20NYLON.jpg"
+    },
+    {
+      "id": 70,
+      "name": "Teflon",
+      "imgUrl": "/img/categorias/TEFLON.jpg"
+    },
+    {
+      "id": 71,
+      "name": "Termofusion piezas y caños",
+      "imgUrl": "/img/categorias/TERMOFUSION%20PIEZAS%20Y%20CANiOS.jpg"
+    },
+    {
+      "id": 72,
+      "name": "Termocuplas",
+      "imgUrl": "/img/categorias/TERRMOCUPLAS.jpg"
+    },
+    {
+      "id": 73,
+      "name": "Tomas y tapas de goma",
+      "imgUrl": "/img/categorias/TOMAS%20Y%20TAPAS%20DE%20GOMA.jpg"
+    },
+    {
+      "id": 74,
+      "name": "Tornillos varios para sanitarios",
+      "imgUrl": "/img/categorias/TORNILLOS%20VARIOS%20PARA%20SANITARIOS.jpg"
+    },
+    {
+      "id": 75,
+      "name": "Tubos machos cuplas, uniones con rosca",
+      "imgUrl": "/img/categorias/TUBOS%20MACHOS%20CUPLAS,%20UNIONES%20CON%20ROSCA.jpg"
+    },
+    {
+      "id": 76,
+      "name": "Unidades magnéticas",
+      "imgUrl": "/img/categorias/UNIDADES%20MAGNETICAS.jpg"
+    },
+    {
+      "id": 77,
+      "name": "Válvulas de descarga Egeo, Errede",
+      "imgUrl": "/img/categorias/VALVULAS%20DE%20DESCARGA%20EGEO%20-%20ERREDE.jpg"
+    },
+    {
+      "id": 78,
+      "name": "Valvulitas para canillas",
+      "imgUrl": "/img/categorias/VALVULITAS%20PARA%20CANILLAS.jpg"
+    },
+    {
+      "id": 79,
+      "name": "Ventosas de goma",
+      "imgUrl": "/img/categorias/VENTOSAS%20DE%20GOMA.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Volantes de bronce grifería y casquetes de marmol",
+      "imgUrl": "/img/categorias/VOLANTES%20DE%20BRONCE%20PARA%20GRIFERIA%20Y%20CASQUETES%20DE%20MARMOL.jpg"
+    },
+    {
+      "id": 81,
+      "name": "Volante de plático y campanas para grifeía",
+      "imgUrl": "/img/categorias/VOLANTES%20DE%20PLASTICO%20Y%20CAMPANAS%20PARA%20GRIFERIA.jpg"
+    }
+  ]
+}

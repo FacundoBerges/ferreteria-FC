@@ -1,6 +1,13 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 import { HeaderItem } from '../../interfaces/HeaderItem.interfaces';
+
+const HEADER_ITEMS: HeaderItem[] = [
+  { itemName: 'Inicio', itemUrl: '/' },
+  { itemName: 'Sobre nosotros', itemUrl: '/sobre-nosotros' },
+  { itemName: 'Productos', itemUrl: '/productos' },
+  { itemName: 'Contacto', itemUrl: '/contacto' },
+];
 
 @Component({
   selector: 'fc-header',
@@ -8,30 +15,24 @@ import { HeaderItem } from '../../interfaces/HeaderItem.interfaces';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  private _headerItems: HeaderItem[] = [
-    { itemName: 'Inicio', itemUrl: '/' },
-    { itemName: 'Productos', itemUrl: '/productos' },
-    { itemName: 'Contacto', itemUrl: '/contacto' },
-    { itemName: 'Sobre nosotros', itemUrl: '/sobre-nosotros' },
-  ];
   private _screenWidth: number = window.innerWidth;
-  private _maxMediumScreenSize: number = 768;
+  private _maxMenuButtonScreenSize: number = 640;
   public isMenuOpen: boolean = false;
 
   get headerItems(): HeaderItem[] {
-    return [...this._headerItems];
+    return [...HEADER_ITEMS];
   }
 
   get isMediumScreen(): boolean {
-    return this._screenWidth <= this._maxMediumScreenSize;
+    return this._screenWidth <= this._maxMenuButtonScreenSize;
   }
 
   @HostListener('window:resize', ['$event'])
-  onResize() {
+  private _onResize(): void {
     this._screenWidth = window.innerWidth;
   }
 
-  public toggleMenu() {
+  public toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
   }
 }
