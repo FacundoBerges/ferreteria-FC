@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+
 import { Product } from '../../interfaces/product';
 
 @Component({
@@ -12,5 +13,9 @@ export class ProductComponent implements OnInit {
 
   public ngOnInit(): void {
     if (!this.product) throw new Error('Product is required');
+  }
+
+  public goToProductDetails(id: number): void {
+    console.log('Product id:', id);
   }
 }
