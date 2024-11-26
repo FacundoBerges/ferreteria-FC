@@ -103,6 +103,10 @@ header {
           @media (max-width: 640px) {
             padding: 0.5rem 0;
           }
+
+          .active {
+            color: var(--primary-color);
+          }
         }
       }
     }
