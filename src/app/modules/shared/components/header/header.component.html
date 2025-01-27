@@ -2,7 +2,7 @@
   <div class="navbar">
     <nav class="brand-logo-container">
       <a routerLink="/" routerLinkActive="active">
-        <img src="assets/logo.png" alt="Logo de la empresa">
+        <img src="assets/ferreteria-logo.png" alt="Logo de la empresa">
       </a>
     </nav>
 
@@ -16,7 +16,8 @@
     <nav class="navigation-menu" [ngClass]="{'menu-active': isMenuOpen && isMediumScreen}">
       <ul>
         <li *ngFor="let menuItem of headerItems">
-          <a [routerLink]="menuItem.itemUrl" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{
+          <a [routerLink]="menuItem.itemUrl" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+            (click)="toggleMenu()">{{
             menuItem.itemName | titlecase }}</a>
         </li>
       </ul>

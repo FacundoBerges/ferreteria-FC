@@ -67,13 +67,14 @@
 }
 
 .main-content {
+  background-image: url("/assets/img/circles.svg");
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 2rem 1rem;
   width: 100%;
 
   .text-container {
-    @media screen and (min-width: 649px) {
+    @media screen and (min-width: 632px) {
       margin-top: 3.5rem;
     }
 
@@ -84,7 +85,7 @@
       font-size: 1rem;
       text-align: center;
 
-      @media (min-width: 768px) {
+      @media (min-width: 632px) {
         font-size: 1.5rem;
       }
 
