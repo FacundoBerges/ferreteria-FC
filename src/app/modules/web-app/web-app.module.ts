@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { ProductComponent } from './components/product/product.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
 import { ProductsPageComponent } from './pages/products/products-page.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ProductsPageComponent } from './pages/products/products-page.component'
     ProductComponent,
     ProductListComponent,
     ProductsPageComponent,
+    MapComponent,
   ],
   imports: [CommonModule, WebAppRoutingModule],
   providers: [provideHttpClient()],
