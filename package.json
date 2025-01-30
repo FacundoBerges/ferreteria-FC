@@ -7,7 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:github": "ng build && mkdir -p docs && cp -r dist/ferreteria-app/* docs/ && rm -rf dist"
+    "build:href": "ng build --base-href ./",
+    "copy:dist": "copyfiles dist/ferreteria-app/browser/* ./docs -f",
+    "delete:docs": "del docs",
+    "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
   },
   "private": true,
   "dependencies": {
@@ -29,6 +32,8 @@
     "@angular/cli": "^18.2.10",
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
+    "copyfiles": "^2.4.1",
+    "del-cli": "^6.0.0",
     "jasmine-core": "~5.2.0",
     "json-server": "^1.0.0-beta.3",
     "karma": "~6.4.0",
