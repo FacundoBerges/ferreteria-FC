@@ -1,0 +1,13 @@
+<div class="item-container" *ngIf="item">
+  <div class="item-image">
+    <img [src]="item.imgUrl" [alt]="item.name" />
+  </div>
+
+  <div class="item-details">
+    <h3>{{ item.name }}</h3>
+
+    <div class="item-cta-btn">
+      <fc-button [buttonText]="'Ver Categoría'" (click)="handleClick()" />
+    </div>
+  </div>
+</div>

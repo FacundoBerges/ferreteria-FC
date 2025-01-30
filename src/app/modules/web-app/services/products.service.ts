@@ -1,19 +1,27 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { Observable, of } from 'rxjs';
+import { Observable } from 'rxjs';
 
 import { Product } from '../interfaces/product';
-
-const API_URL = 'http://localhost:3000/products';
+import { env } from '../environments/environment';
+import { CategoryDTO } from '../interfaces/category.dto';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProductsService {
+  private API_URL = env.API_URL;
+
   constructor(private _httpClient: HttpClient) {}
 
-  public getProducts(): Observable<Product[]> {
-    return this._httpClient.get<Product[]>(API_URL);
+  public getCategories(): Observable<CategoryDTO[]> {
+    return this._httpClient.get<CategoryDTO[]>(`${this.API_URL}/categories`);
+  }
+
+  public getProductsByCategory(category: string): Observable<Product[]> {
+    return this._httpClient.get<Product[]>(
+      `${this.API_URL}/products/${category}`
+    );
   }
 }

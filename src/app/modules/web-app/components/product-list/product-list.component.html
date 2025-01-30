@@ -1,3 +1,9 @@
 <div class="products-container">
-  <fc-product *ngFor="let product of products" [product]="product" />
+  <ng-container *ngIf="categories; else productTemplate">
+    <fc-product *ngFor="let category of categories" [product]="category" />
+  </ng-container>
+
+  <ng-template #productTemplate>
+    <fc-product *ngFor="let product of products" [product]="product" />
+  </ng-template>
 </div>

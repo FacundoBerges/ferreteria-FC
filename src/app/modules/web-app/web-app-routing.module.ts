@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'contacto', component: ContactPageComponent },
   { path: 'productos', component: ProductsPageComponent },
+  { path: 'productos/:category', component: ProductsPageComponent },
   { path: 'sobre-nosotros', component: AboutPageComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
